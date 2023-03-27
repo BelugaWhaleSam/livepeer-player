@@ -8,7 +8,7 @@ import { DecentralizedStoragePlayback } from "./DecentralizedStoragePlayback";
 
 /* livepeer Client using our api key  */
 const client = createReactClient({
-  provider: studioProvider({ apiKey: "45087818-a31a-4541-9892-fe8e0a06145d" }),
+  provider: studioProvider({ apiKey: "YOUR_API_KEY" }),
 });
 
 function App() {
